@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# CatBoost logs
+catboost_info/
+
+# Model artifacts (large files)
+models/*.cbm
+models/*.pkl
+
+# Submission files
+submission.csv
+
+# Raw data (optional but recommended)
+data/raw/
+
+# Mac system files
+.DS_Store
